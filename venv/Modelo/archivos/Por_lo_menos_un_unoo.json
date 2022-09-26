@@ -1,0 +1,22 @@
+{
+  "estados": {"inicial":"C","Aceptacion": "D"},
+  "transiciones": [
+    {
+      "Origen": "C",
+      "Destino": "C",
+      "transicion": "0"},
+    {
+      "Origen": "C",
+      "Destino": "D",
+      "transicion": "1"},
+    {
+      "Origen": "D",
+      "Destino": "D",
+      "transicion": "0"
+    },
+    {
+      "Origen": "D",
+      "Destino": "D",
+      "transicion": "1"
+    }]
+}

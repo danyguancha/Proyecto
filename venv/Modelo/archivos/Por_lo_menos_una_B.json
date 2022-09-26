@@ -1,0 +1,31 @@
+{
+  "estados": {"inicial":"D","Aceptacion": "E","s1": "F"},
+  "transiciones": [
+    {
+      "Origen": "D",
+      "Destino": "E",
+      "transicion": "b"},
+    {
+      "Origen": "D",
+      "Destino": "F",
+      "transicion": "a"},
+    {
+      "Origen": "E",
+      "Destino": "E",
+      "transicion": "b"
+    },
+    {
+      "Origen": "E",
+      "Destino": "F",
+      "transicion": "a"
+    },{
+      "Origen": "F",
+      "Destino": "D",
+      "transicion": "a"
+    },
+    {
+      "Origen": "F",
+      "Destino": "E",
+      "transicion": "b"
+    }]
+}

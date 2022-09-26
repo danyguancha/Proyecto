@@ -1,0 +1,11 @@
+digraph "Automata reverso" {
+	rankdir=LR size="8,5"
+	node [shape=doublecircle]
+	A
+	node [shape=circle]
+	B -> A [label=0]
+	C -> B [label=0]
+	D -> C [label=0]
+	D -> D [label=0]
+	D -> D [label=1]
+}

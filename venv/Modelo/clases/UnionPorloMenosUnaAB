@@ -1,0 +1,51 @@
+digraph "Union Automatas" {
+	rankdir=LR size="8,5"
+	node [shape=doublecircle]
+	AE
+	node [shape=doublecircle]
+	BD
+	node [shape=doublecircle]
+	BE
+	node [shape=doublecircle]
+	BF
+	node [shape=doublecircle]
+	BE
+	node [shape=doublecircle]
+	CE
+	node [shape=circle]
+	AD -> BF [label=a]
+	node [shape=circle]
+	AE -> BF [label=a]
+	node [shape=circle]
+	AF -> BD [label=a]
+	node [shape=circle]
+	AD -> CE [label=b]
+	node [shape=circle]
+	AE -> CE [label=b]
+	node [shape=circle]
+	AF -> CE [label=b]
+	node [shape=circle]
+	BD -> BF [label=a]
+	node [shape=circle]
+	BE -> BF [label=a]
+	node [shape=circle]
+	BF -> BD [label=a]
+	node [shape=circle]
+	BD -> CE [label=b]
+	node [shape=circle]
+	BE -> CE [label=b]
+	node [shape=circle]
+	BF -> CE [label=b]
+	node [shape=circle]
+	CD -> AE [label=b]
+	node [shape=circle]
+	CE -> AE [label=b]
+	node [shape=circle]
+	CF -> AE [label=b]
+	node [shape=circle]
+	CD -> BF [label=a]
+	node [shape=circle]
+	CE -> BF [label=a]
+	node [shape=circle]
+	CF -> BD [label=a]
+}

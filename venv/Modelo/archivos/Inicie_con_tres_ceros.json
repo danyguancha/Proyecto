@@ -1,0 +1,48 @@
+{
+  "estados": {"inicial":"A","s1": "B","s2": "C","Aceptacion": "D","s3": "E"},
+  "transiciones": [
+    {
+      "Origen": "A",
+      "Destino": "B",
+      "transicion": "0"},
+    {
+      "Origen": "A",
+      "Destino": "E",
+      "transicion": "1"},
+    {
+      "Origen": "B",
+      "Destino": "C",
+      "transicion": "0"
+    },
+    {
+      "Origen": "B",
+      "Destino": "E",
+      "transicion": "1"
+    },{
+      "Origen": "C",
+      "Destino": "D",
+      "transicion": "0"},
+    {
+      "Origen": "C",
+      "Destino": "E",
+      "transicion": "1"},
+    {
+      "Origen": "D",
+      "Destino": "D",
+      "transicion": "0"
+    },
+    {
+      "Origen": "D",
+      "Destino": "D",
+      "transicion": "1"
+    },{
+      "Origen": "E",
+      "Destino": "E",
+      "transicion": "0"
+    },
+    {
+      "Origen": "E",
+      "Destino": "E",
+      "transicion": "1"
+    }]
+}
