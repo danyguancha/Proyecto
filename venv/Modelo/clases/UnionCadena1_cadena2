@@ -1,4 +1,4 @@
-digraph finite_state_machine {
+digraph "Union Automatas" {
 	rankdir=LR size="8,5"
 	node [shape=doublecircle]
 	AI
@@ -6,6 +6,14 @@ digraph finite_state_machine {
 	BI
 	node [shape=doublecircle]
 	CI
+	node [shape=doublecircle]
+	DF
+	node [shape=doublecircle]
+	DG
+	node [shape=doublecircle]
+	DH
+	node [shape=doublecircle]
+	DI
 	node [shape=doublecircle]
 	DF
 	node [shape=doublecircle]

@@ -27,7 +27,7 @@ class Reverso:
                     if c == 'Destino':
                         transiciones[i]['Destino']=self.aux
                 j.edge(transiciones[i]['Origen'],transiciones[i]['Destino'],label=transiciones[i]['transicion'])
-        #j.save()
+        j.save()
     def encontrarPozo(self,listaTransiciones):
         destino =[]
         for i in listaTransiciones:

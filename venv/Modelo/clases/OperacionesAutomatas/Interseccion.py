@@ -37,4 +37,4 @@ class Interseccion:
                     inter.attr('node', shape='circle')
                     inter.edge(self.estado1, self.estado2, label=i.get("transicion"))
 
-        #inter.save()
+        inter.save()

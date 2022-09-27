@@ -42,4 +42,4 @@ class Union:
 
                     union.attr('node', shape='circle')
                     union.edge(estado1, estado2, label=i.get("transicion"))
-        #union.save()
+        union.save()

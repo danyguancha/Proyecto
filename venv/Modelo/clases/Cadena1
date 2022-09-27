@@ -1,4 +1,4 @@
-digraph finite_state_machine {
+digraph "Cadena 1" {
 	rankdir=LR size="8,5"
 	node [shape=doublecircle]
 	D
